@@ -492,6 +492,82 @@
             <use href="./images/icon-Vector.svg#icon-Vector"></use>
           </svg>
         </button>
+        <form>
+          <legend class="form_legend">
+            Zostaw swoje dane w formularzu poniżej
+          </legend>
+          <div class="form">
+            <label for="user_name">Imie</label>
+            <span>
+              <input
+                class="input-form"
+                type="text"
+                name="user_name"
+                id="user_name"
+                required
+              />
+              <svg class="person-form-icon" width="12" height="12">
+                <use href="./images/icon-send.svg#icon-Vector-1"></use>
+              </svg>
+            </span>
+
+            <label for="phone_number">Telefon </label
+            ><span>
+              <input
+                class="input-form"
+                type="number"
+                name="phone_number"
+                id="phone_number"
+                required
+              /><svg class="person-form-icon" width="13" height="13">
+                <use href="./images/icon-send.svg#icon-Vector-2"></use>
+              </svg>
+            </span>
+            <label for="user_email">Email</label
+            ><span>
+              <input
+                class="input-form"
+                type="email"
+                name="user_email"
+                id="user_email"
+                required
+              /><svg class="person-form-icon" width="15" height="12">
+                <use href="./images/icon-send.svg#icon-Vector-3"></use>
+              </svg>
+            </span>
+            <label for="comment">Komentarz</label>
+
+            <textarea
+              class="input-form coment"
+              id="comment"
+              rows="6"
+              name="comment"
+              placeholder="Wprowadź tekst"
+            ></textarea>
+          </div>
+          <label for="statute" class="checkbox">
+            <input
+              type="checkbox"
+              class="checkbox-input"
+              name="statute_acceptance"
+              value="statute"
+              id="statute"
+              required
+            />
+            <span class="checkbox-icon">
+              <svg class="checkbox-vector" width="16" height="15">
+                <use href="./images/icon_check.svg#icon-icon-check"></use>
+              </svg>
+            </span>
+            <span class="form-acepted"
+              >Oświadczam iż akceptuję <a href="">Regulamin</a> i
+              <a href="">Politykę Prywatności</a>.</span
+            >
+          </label>
+          <button typ="submit" class="order-service-button button-form">
+            Wyślij
+          </button>
+        </form>
       </div>
     </div>
     <script src="./js/modal.js"></script>
